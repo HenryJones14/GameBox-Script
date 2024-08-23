@@ -8,6 +8,8 @@ GameBox Script is a powerful and flexible scripting language designed to organiz
 
 Namespaces are here to organize code and can be ether **declared** or **included**.
 
+> [include|declare] namespace <name> [;|{}]
+
 All structs, objects and modules need to be in at least one namespace, because there is no global namespace.
 
 Namespaces are per `struct`, `object` or `module`. Meaning that each one of them has a single namespace declaration and some namespace includes (always including its own declaration). This means that you cant have a single `function` in a `module` that uses a different namespace.
