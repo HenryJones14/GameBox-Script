@@ -65,17 +65,23 @@ declare namespace Game
 
 You should use inline includes and scoped declarations by default.
 
-### Structures
+### Structs
 
-Structures are here to allow you to make custom types. All standard library types are structs. Structs can only contain other structs
+Structs are here to allow you to make custom types. All standard library types are structs. Structs can only contain other structs.
 
-```
-[public|within|member|hidden] struct <name> : <parent>
-{
-    
-}
+[ `public` | `within` | `member` | `hidden` ] `struct` \<name\> `{}`
 
-```
+### Objects
+
+Objects are here to make use of generics and to allow encapsulation.
+
+[ `public` | `within` | `member` | `hidden` ] `object` \<name\> `{}`
+
+### Modules
+
+Modules are here to make libraries without state.
+
+[ `public` | `within` | `member` | `hidden` ] `module` \<name\> `{}`
 
 ## Standard library
 
