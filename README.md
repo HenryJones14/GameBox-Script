@@ -83,6 +83,12 @@ Modules are here to make libraries without state.
 
 [ `public` | `within` | `member` | `hidden` ] `module` \<name\> `{}`
 
+### Functions
+
+Functions are here to do the actual code.
+
+[ `public` | `within` | `member` | `hidden` ] `function` \<name\> `(` \<arguments\> `)` `{}` where \<arguments\> is any number of [ `input` | `output` ] \<type\> \<name\>
+
 ## Standard library
 
 Standard library is organized into namespaces with no structs, objects and modules in namespaces that contain other namespaces. Only top level namespaces have structs, objects and modules.
